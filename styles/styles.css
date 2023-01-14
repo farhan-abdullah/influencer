@@ -18,10 +18,7 @@
 /*
     3. Allow percentage-based heights in the application
   */
-html,
-body {
-  height: 100%;
-}
+
 /*
     Typographic tweaks!
     4. Add accessible line-height
@@ -168,7 +165,7 @@ h3 {
 .second-section {
   text-align: center;
   width: 100%;
-  height: 100vh;
+
   margin: 0 auto;
 }
 .cards {
@@ -213,5 +210,4 @@ h4 {
   color: rgba(224, 44, 109, 0.87);
   display: flex;
   justify-content: flex-end;
-  margin: 1100px 0;
 }

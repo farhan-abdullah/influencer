@@ -134,7 +134,7 @@ h3 {
   padding: 10px 24px;
   border: none;
 }
-i {
+.arrow {
   margin-left: 10px;
 }
 .section-img {
@@ -169,15 +169,47 @@ i {
   text-align: center;
   width: 100%;
   height: 100vh;
+  margin: 0 auto;
 }
 .cards {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  row-gap: 20px;
+  column-gap: 10px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.card {
+  padding: 10px 15px;
   width: 329px;
   height: 476px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
+  text-align: left;
 }
 .thumbnail {
   width: 100%;
+}
+.card-info {
+}
+h4 {
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.cost {
+  font-weight: 400;
+  font-size: 24px;
+}
+.p {
+  font-weight: 700;
+  font-size: 14px;
+}
+.see-more {
+  width: 100px;
+  height: 30px;
+  color: rgba(224, 44, 109, 0.87);
+  float: right;
 }
